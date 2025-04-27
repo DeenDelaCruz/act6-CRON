@@ -26,4 +26,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add log.txt
           git commit -m "Update log file with new timestamp" || echo "No changes to commit"
-          git push https://github-actions:${{ secrets.GITHUB_TOKEN }} @github.com/DeenDelaCru/act6-CRON.git
+          git push https://github-actions:${{ secrets.GITHUB_TOKEN }} @github.com/DeenDelaCruz/act6-CRON.git
